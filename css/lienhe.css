@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contact{
+	width:720px;
+	height:auto;
+	margin-right:20px;
+	margin-bottom:20px;
+	padding-top:20px;
+	}
+
+.contact ul{
+	width:100%;
+	height:auto;
+	}
+	
+.contact ul li{
+	list-style:none;
+	padding-bottom:10px;
+	text-align:justify;
+	}	
+	
+.contact ul li span{
+	font-weight:bold;
+	}	
+	
+.contact ul li a{
+	color:#C40000;
+	}	
+	
+	

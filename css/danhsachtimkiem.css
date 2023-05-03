@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+h2 .skeyword{
+	color:#FF0;
+	text-transform:none;
+}
+
+#pagination{
+	width:720px;
+	height:auto;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	word-spacing:5px;
+	text-align:right;
+	margin-right:20px;
+	margin-bottom:20px;
+	}
+	
+#pagination span{
+	color:#C40000;
+	}	
+	
+#pagination a{
+	text-decoration:none;
+	color:#000;
+	}	
+	
+#pagination a span{
+	}	

@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* CSS Document */
+
+.prd-only{
+	width:720px;
+	height:auto;
+	margin-right:20px;
+	}
+	
+.prd-img{
+	float:left;
+	width:340px;
+	height:auto;
+	text-align:center;
+	}
+	
+.prd-intro{
+	float:right;
+	width:380px;
+	height:auto;
+	}
+	
+.prd-intro h3{
+	width:380px;
+	height:35px;
+	line-height:35px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#000;
+	}		
+	
+.prd-intro p{
+	width:380px;
+	height:auto;
+	font-size:14px;
+	border-bottom:1px dashed #CCC;
+	}
+
+.prd-intro p span{
+	font-weight:bold;
+	color:#C40000;
+	}
+
+.prd-intro table{
+	width:100%;
+	height:auto;
+	margin-bottom:20px;
+	}
+
+.prd-intro table tr{
+	width:100%;
+	height:auto;
+	}
+	
+.prd-intro table tr td{
+	height:auto;
+	padding:5px 0px;
+	}
+	
+.prd-intro table tr td span{
+	font-weight:bold;
+	}		
+
+.prd-intro p.add-cart{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	text-transform:uppercase;
+	border:none;
+	}
+
+.prd-intro p.add-cart a{
+	text-decoration:none;
+	}
+
+.prd-intro p.add-cart a span{
+	width:auto;
+	height:auto;
+	background-image:-moz-linear-gradient(center bottom , #C40000 36%, #D64C4A 58%);
+	padding:10px;
+	border-radius: 6px 6px 6px 6px;
+	color:#FFF;
+	}
+
+.prd-details{
+	clear:both;
+	width:720px;
+	height:auto;
+	line-height:22px;
+	border-top:1px solid #CCC;
+	margin:20px 0px;
+	padding:10px 0px;
+	}
+
+.prd-comment{
+	width:720px;
+	height:auto;
+	margin:20px 0px;
+	}
+
+.prd-comment h3{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#000;
+	text-transform:capitalize;
+	margin-bottom:10px;
+	}
+
+.prd-comment li{
+	list-style:none;
+	padding-bottom:10px;
+	}
+	
+.prd-comment li span{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#F00;
+	}	
+
+.prd-comment .required input, textarea{
+	width:50%;
+	}
+
+.prd-comment .required textarea{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#666;
+	height:150px;
+	}
+
+.comment-list{
+	width:720px;
+	height:auto;
+	margin:20px 0px;
+	}
+
+.comment-list ul{
+	width:720px;
+	height:auto;
+	border-bottom:1px dotted #cdcdcd;
+	margin-bottom:10px;
+	padding-bottom:5px;
+	}
+
+.comment-list ul li{
+	list-style:none;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#666;
+	line-height:22px;
+	}
+
+ul li.com-title{
+	color:#000;
+	font-weight:bold;
+	text-transform:capitalize;
+	}	
+	
+ul li.com-title span{
+	font-weight:normal;
+	color:#999;
+	}	
+	
+.com-pagination{
+	width:720px;
+	height:auto;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-align:right;
+	word-spacing:5px;
+	padding:10px 0;
+	}	
+	
+.com-pagination a{
+	color:#000;
+	text-decoration:none;
+	}	
+
+.com-pagination span{
+	color:#C40000;
+	}	
+	
+	
+	
+	
+	
+	
+	
+	

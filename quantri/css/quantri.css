@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*---------------- Reset CSS -------------------*/
+*{
+	margin:0px;
+	padding:0px;
+	}
+
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#666;
+	background:url(../anh/bg.gif) top left repeat;
+	}
+
+/*---------------- Wrapper -------------------*/	
+#wrapper{
+	width:1000px;
+	height:auto;
+	margin:30px auto;
+	}	
+	
+/*---------------- Navbar -------------------*/	
+#header{
+	width:1000px;
+	height:auto;
+	background:#FFF;
+	}
+
+#navbar{
+	position:relative;
+	width:1000px;
+	height:auto;
+	}	
+	
+#navbar ul{
+	width:1000px;
+	height:30px;
+	line-height:30px;
+	border-top:3px solid #840000;
+	border-bottom:1px solid #CCC;
+	}	
+	
+#navbar ul li{
+	float:left;
+	list-style:none;
+	width:auto;
+	height:30px;
+	line-height:30px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-transform:capitalize;
+	padding:0px 12px;
+	border-right:1px solid #CCC;
+	}
+	
+#navbar ul li:hover{
+	background:#840000;
+	cursor:pointer;
+	}
+	
+#navbar ul li:hover a{
+	color:#FFF;
+	}			
+
+#navbar ul li#admin-home{
+	background:#840000;
+	}
+	
+#navbar ul li a{
+	text-decoration:none;
+	color:#000;
+	}	
+	
+#navbar ul li#admin-home a{
+	color:#FFF;
+	}	
+	
+#user-info{
+	position:absolute;
+	width:213px;
+	height:117px;
+	background:url(../anh/user-info.png) top left no-repeat;
+	top:0px;
+	left:767px;
+	}	
+	
+#user-info p{
+	width:193px;
+	height:auto;
+	padding:10px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#FFF;
+	text-align:center;
+	}	
+	
+#user-info p span{
+	text-transform:capitalize;
+	font-weight:bold;
+	color:#FF0;
+	}	
+	
+#user-info p a{
+	font-weight:bold;
+	text-decoration:none;
+	color:#FF0;
+	}	
+	
+/*---------------- Banner -------------------*/	
+#banner{
+	width:960px;
+	height:auto;
+	padding:20px;
+	border-bottom:1px solid #CCC;
+	}
+
+/*---------------- Body -------------------*/		
+#body{
+	width:960px;
+	height:auto;
+	padding:20px;
+	background:#FFF;
+	}
+	
+#body h2{
+	width:940px;
+	height:35px;
+	line-height:35px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#FFF;
+	text-transform:capitalize;
+	background:#3F3F3F;
+	padding:0px 10px;
+	}		
+
+#main{
+	width:938px;
+	height:auto;
+	border:1px solid #CCC;
+	padding:20px 10px;
+	margin-top:10px;
+	}
+
+/*------------------ Footer-----------------*/
+#footer{
+	width:1000px;
+	height:auto;
+	border-top:8px solid #C40000;
+	margin-top:35px;
+	}
+	
+#footer #footer-info{
+	width:1000px;
+	height:auto;
+	background:#000;
+	border-top:20px solid #3F3F3F;
+	padding:20px 0px;
+	text-align:center;
+	}
+	
+#footer #footer-info h4{
+	width:1000px;
+	height:auto;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#FFF;
+	text-transform:uppercase;
+	}		
+
+#footer #footer-info p{
+	width:1000px;
+	height:auto;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#FFF;
+	padding:10px;
+	}
+
+#footer #footer-info p span{
+	font-weight:bold;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

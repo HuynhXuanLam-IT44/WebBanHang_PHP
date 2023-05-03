@@ -1,0 +1,491 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*---------- Reset Css----------*/
+*{
+	margin:0px;
+	padding:0px;
+	}
+	
+body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#666;
+	background:url(../anh/bg.gif) top left repeat;
+	}	
+	
+/*---------- Wrapper----------*/	
+#wrapper{
+	width:1000px;
+	height:auto;
+	margin:30px auto;
+	margin-bottom:0px;
+	}
+
+/*---------- Header----------*/
+#header{
+	width:1000px;
+	height:auto;
+	background:#FFF;
+	}	
+	
+#search-bar	{
+	position:relative;
+	width:1000px;
+	height:30px;
+	line-height:30px;
+	border-top:3px solid #840000;
+	border-bottom:1px solid #CCC;
+	}
+
+#search-bar input{
+	float:left;
+	border:none;
+	}
+	
+#search-bar input[type="submit"]{
+	width:46px;
+	height:30px;
+	background:url(../anh/search-icon.png) top left no-repeat;
+	}
+	
+#search-bar input[type="text"]{
+	width:219px;
+	height:30px;
+	line-height:30px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#666;
+	border-right:1px solid #CCC;
+	margin-left:5px;
+	}
+
+#cart{
+	position:absolute;
+	width:213px;
+	height:77px;
+	background:url(../anh/cart.png) top  left no-repeat;
+	top:-3px;
+	left:767px;
+	padding-top:40px;
+	}
+
+#cart p{
+	width:213px;
+	height:auto;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-align:center;
+	color:#FFF;
+	}
+	
+#cart p span{
+	font-weight:bold;
+	color:#FF0;
+	}	
+
+#cart p a{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	text-decoration:none;
+	color:#FF0;
+	font-weight:bold;
+	}
+
+#main-bar{
+	overflow:hidden;
+	width:960px;
+	height:auto;
+	padding:20px;
+	}
+	
+#main-bar #logo, #banner{
+	float:left;
+	}
+	
+#banner{
+	width:343px;
+	height:31px;
+	background:url(../anh/banner.png) top left no-repeat;
+	margin-left:45px;
+	margin-top:20px;
+	}		
+
+#navbar{
+	width:958px;
+	height:auto;
+	border:1px solid #CCC;
+	margin:0px 20px;
+	}
+	
+#navbar ul{
+	width:958px;
+	height:33px;
+	border-top:3px solid #3F3F3F;
+	}
+	
+#navbar ul li{
+	float:left;
+	list-style:none;
+	width:auto;
+	height:33px;
+	line-height:33px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	text-transform:capitalize;
+	padding:0px 12px;
+	border-right:1px solid #CCC;
+	}
+	
+#navbar ul li:hover{
+	background:#3F3F3F;
+	cursor:pointer;
+	}
+	
+#navbar ul li:hover a{
+	color:#FFF;
+	}				
+	
+#navbar ul li a{
+	text-decoration:none;
+	color:#000;
+	}
+	
+#navbar ul li#menu-home{
+	background:#3F3F3F;;
+	}
+	
+#navbar ul li#menu-home a{
+	color:#FFF;
+	}
+
+/*---------- Body----------*/
+#body{
+	overflow:hidden;
+	width:1000px;
+	height:auto;
+	background:#FFF;
+	padding:20px 0px;
+	}
+
+/*---------- Left Sidebar----------*/
+#l-col{
+	float:left;
+	width:220px;
+	height:auto;
+	padding-left:20px;
+	}
+.l-sidebar{
+	width:218px;
+	height:auto;
+	border:1px solid #CCC;
+	margin-bottom:20px;
+	}
+
+.l-sidebar h2{
+	width:206px;
+	height:35px;
+	line-height:35px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#FFF;
+	text-transform:capitalize;
+	background:#3F3F3F;
+	padding-left:12px;
+	}
+
+.l-sidebar ul{
+	width:218px;
+	height:auto;
+	}
+
+/*---------- Yahoo Suport----------*/
+ul#hotline{
+	width:218px;
+	height:150px;
+	background:url(../anh/hotline.png) bottom left no-repeat;
+	padding-top:10px;
+	}
+	
+ul#hotline li{
+	list-style:none;
+	width:206px;
+	height:auto;
+	text-align:right;
+	padding-right:12px;
+	}
+	
+ul#hotline li span{
+	display:block;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#EE0000;
+	}		
+
+/*---------- Main Menu----------*/
+.l-sidebar ul#main-menu li{
+	list-style:none;
+	width:194px;
+	height:35px;
+	line-height:35px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding-left:12px;
+	background:url(../anh/icon-menu.png) right center no-repeat;
+	margin-right:12px;
+	}
+	
+.l-sidebar ul#main-menu li:hover{
+	cursor:pointer;
+	}	
+	
+.l-sidebar ul#main-menu li a{
+	text-decoration:none;
+	color:#000;
+	}	
+
+.l-sidebar ul#main-menu li a:hover{
+	color:#EE0000;
+	}
+
+/*---------- Left Banner----------*/
+.l-banner{
+	width:216px;
+	height:auto;
+	padding:1px;
+	text-align:center;
+	}
+.l-banner img{
+	width:216px;
+	}	
+	
+/*---------- Visit Counter----------*/
+#counter{
+	width:194px;
+	height:auto;
+	padding:10px 12px;
+	}
+	
+#counter span{
+	font-weight:bold;
+	color:#C40000;
+	}		
+
+/*---------- Right Sidebar----------*/
+#r-col{
+	float:right;
+	width:740px;
+	height:auto;
+	padding-left:20px;
+	}
+	
+/*---------- Slideshow----------*/
+#slideshow{
+	width:718px;
+	height:300px;
+	border:1px solid #CCC;
+	margin-right:20px;
+	}
+	
+#slideshow img{
+	width:718px;
+	height:300px;
+	}		
+
+/*---------- Main----------*/
+#main{
+	width:740px;
+	height:auto;
+	margin-top:20px;
+	}
+
+.prd-block{
+	width:740px;
+	height:auto;
+	}
+
+.prd-block h2{
+	width:708px;
+	height:35px;
+	line-height:35px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#FFF;
+	text-transform:capitalize;
+	background:#3F3F3F;
+	padding-left:12px;
+	margin-right:20px;
+	}
+	
+.pr-list{
+	width:740px;
+	height:auto;
+	padding:10px 0px;
+	}	
+
+.prd-item{
+	float:left;
+	width:208px;
+	height:auto;
+	text-align:center;
+	border:1px solid #CCC;
+	margin-right:15px;
+	margin-bottom:15px;
+	padding:10px;
+	}
+
+.prd-item h3{
+	width:208px;
+	height:auto;
+	margin:5px 0px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	}
+	
+.prd-item p{
+	width:208px;
+	height:auto;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#666;
+	margin:5px 0px;
+	}	
+	
+.prd-item h3 a{
+	text-decoration:none;
+	color:#000;
+	}	
+
+.prd-item p.price{
+	padding-top:10px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#C40000;
+	}
+	
+.prd-item p.price span{
+	padding:5px 10px;
+	background:linear-gradient(180deg, #F0EFEF 20%, #E0DEDE 60%) repeat scroll 0 0 transparent;
+	border-radius:40px 40px 40px 40px;
+	}	
+
+.clear{
+	clear:both;
+	}
+
+#brand{
+	clear:both;
+	width:960px;
+	height:65px;
+	background:url(../anh/brand.png) top left no-repeat;
+	margin:0px 20px;
+	}
+
+/*---------- Footer----------*/
+#footer{
+	width:1000px;
+	height:auto;
+	border-top:8px solid #C40000;
+	margin-top:35px;
+	}
+	
+#footer #footer-info{
+	width:1000px;
+	height:auto;
+	background:#000;
+	border-top:20px solid #3F3F3F;
+	padding:20px 0px;
+	text-align:center;
+	}
+	
+#footer #footer-info h4{
+	width:1000px;
+	height:auto;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#FFF;
+	text-transform:uppercase;
+	}		
+
+#footer #footer-info p{
+	width:1000px;
+	height:auto;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#FFF;
+	padding:10px;
+	}
+
+#footer #footer-info p span{
+	font-weight:bold;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

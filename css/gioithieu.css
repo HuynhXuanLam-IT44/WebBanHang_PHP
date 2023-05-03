@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.about{
+	width:720px;
+	height:auto;
+	margin-right:20px;
+	margin-bottom:20px;
+	padding-top:20px;
+	}
+
+.about p{
+	width:100%;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#666;
+	text-align:justify;
+	line-height:22px;
+	padding-bottom:10px;
+	}
+
+.about p span{
+	font-weight:bold;
+	color:#C40000;
+	}
+
+p#signature{
+	font-size:15px;
+	color:#000;
+	text-align:right;
+	text-transform:capitalize;
+	padding-bottom:0px;
+	}
+
+p#signature span{
+	color:#000;
+	}
+
+
+
+
+
+
+
+
+
+
+

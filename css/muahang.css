@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+.payment{
+	width:720px;
+	height:auto;
+	margin-right:20px;
+	margin-bottom:20px;
+	}
+	
+.payment table{
+	width:720px;
+	height:auto;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	border-top:1px solid #CCC;
+	border-right:1px solid #CCC;
+	margin:10px 0px;
+	}
+
+.payment table tr td{
+	border-bottom:1px solid #CCC;
+	border-left:1px solid #CCC;
+	padding:10px;
+	}
+	
+#invoice-bar{
+	font-weight:bold;
+	color:#000;
+	text-transform:capitalize;
+	}
+	
+.payment table tr td.prd-price, .prd-total{
+	color:#C40000;
+	}	
+	
+.payment table tr td.prd-total span{
+	font-weight:bold;
+	}
+	
+.form-payment{
+	width:720px;
+	height:auto;
+	margin-right:20px;
+	margin-bottom:20px;
+	}
+	
+.form-payment ul{
+	width:100%;
+	height:auto;
+	}	
+	
+.form-payment ul li{
+	list-style:none;
+	width:100%;
+	height:auto;
+	padding-bottom:10px;
+	}	
+	
+li.info-cus input{
+	width:50%;
+	height:auto;
+	}	
+	
+li.info-cus span{
+	color:#F00;
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

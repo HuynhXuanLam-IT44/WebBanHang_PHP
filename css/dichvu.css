@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+.services{
+	width:720px;
+	height:auto;
+	margin-right:20px;
+	margin-bottom:20px;
+	padding-top:20px;
+	}
+
+.services ul{
+	width:100%;
+	height:auto;
+	}
+	
+.services ul li{
+	list-style:none;
+	padding-bottom:10px;
+	text-align:justify;
+	}	
+	
+.services ul li span{
+	font-weight:bold;
+	}	
+	
+.services ul li a{
+	color:#C40000;
+	}	
+	
+	

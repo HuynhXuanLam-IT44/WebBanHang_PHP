@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ordered{
+	width:698px;
+	height:auto;
+	margin-right:20px;
+	margin-bottom:20px;
+	border:1px solid #6C0;
+	padding:10px;
+	}
+	
+.ordered p{
+	width:100%;
+	height:auto;
+	margin-bottom:5px;
+	}
+	
+.ordered p{
+	color:#6C0;
+	text-align:justify;
+	}
+	
+.ordered p.ordered-report{
+	font-weight:bold;
+	}
+	
+#return-home{
+	width:710px;
+	height:auto;
+	margin-right:30px;
+	}	
+
+#return-home a{
+	font-weight:bold;
+	color:#000;
+	text-decoration:none;
+	}	
+	
+#return-home a:hover{
+	color:#C40000;
+	}	
+	
+	
+	
+	
+	
